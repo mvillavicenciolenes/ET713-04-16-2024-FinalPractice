@@ -1,0 +1,733 @@
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 5d0839653a204b30a12706c860ad4fe7.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 5d0839653a204b30a12706c860ad4fe7.vfs.cloud9.us-east-1.amazonaws.com
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:06:30 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (15.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:06:30 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.9ms | Allocations: 378)
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.8ms | Allocations: 387)
+Completed 200 OK in 27ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 5148)
+
+
+Completed 200 OK in 30ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 5089)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:13:34 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:13:55 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 986.8ms | Allocations: 87849)
+Completed 200 OK in 994ms (Views: 993.2ms | ActiveRecord: 0.0ms | Allocations: 88826)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:14:44 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 76.7ms | Allocations: 17187)
+Completed 200 OK in 92ms (Views: 85.4ms | ActiveRecord: 0.0ms | Allocations: 18098)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:15:15 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1354)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 1601)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:15:16 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1330)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 1577)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:15:16 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 1330)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 1577)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:15:21 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1369)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 1616)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:15:25 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 260)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 833)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:16:00 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 261)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 895)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:17:43 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 211)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:17:44 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:17:44 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 210)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:17:44 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 210)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:17:44 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 210)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:17:44 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 210)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:17:44 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 210)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:17:45 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 211)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:17:45 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 210)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:19:09 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 26.2ms | Allocations: 14640)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms | Allocations: 15485)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:19:10 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1351)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 1599)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:19:10 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 1339)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 1586)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:19:10 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1345)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 1592)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:19:11 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 1351)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 1598)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:19:11 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1324)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 1571)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:19:11 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 1327)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 1574)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:19:14 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 211)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:19:21 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 210)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:19:23 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 210)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:25:41 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1341)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 1588)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:25:53 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 261)
+  Rendered layout layouts/application.html.erb (Duration: 31.3ms | Allocations: 14784)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms | Allocations: 15695)
+
+
+Started GET "/w3images/architect.jpg" for 146.111.195.15 at 2024-04-16 21:25:53 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/architect.jpg"):
+  
+Started GET "/w3images/house2.jpg" for 146.111.195.15 at 2024-04-16 21:25:53 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/house2.jpg"):
+  
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:27:15 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 14794)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms | Allocations: 15705)
+
+
+Started GET "/w3images/architect.jpg" for 146.111.195.15 at 2024-04-16 21:27:15 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/architect.jpg"):
+  
+Started GET "/w3images/house2.jpg" for 146.111.195.15 at 2024-04-16 21:27:15 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/house2.jpg"):
+  
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:27:51 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 259)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 14801)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms | Allocations: 15712)
+
+
+Started GET "/w3images/architect.jpg" for 146.111.195.15 at 2024-04-16 21:27:51 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/architect.jpg"):
+  
+Started GET "/w3images/architect.jpg" for 146.111.195.15 at 2024-04-16 21:30:32 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/architect.jpg"):
+  
+Started GET "/w3images/architect.jpg" for 146.111.195.15 at 2024-04-16 21:30:34 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/architect.jpg"):
+  
+Started GET "/w3images/architect.jpg" for 146.111.195.15 at 2024-04-16 21:30:35 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/architect.jpg"):
+  
+Started GET "/w3images/architect.jpg" for 146.111.195.15 at 2024-04-16 21:30:36 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/architect.jpg"):
+  
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:35:43 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 257)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 14808)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms | Allocations: 15719)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:36:53 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 14673)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.0ms | Allocations: 15581)
+
+
+Started GET "/w3images/bridge.jpg" for 146.111.195.15 at 2024-04-16 21:36:53 +0000
+Started GET "/w3images/woods.jpg" for 146.111.195.15 at 2024-04-16 21:36:53 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/woods.jpg"):
+  
+Started GET "/w3images/workshop.jpg" for 146.111.195.15 at 2024-04-16 21:36:53 +0000
+Started GET "/w3images/avatar_g.jpg" for 146.111.195.15 at 2024-04-16 21:36:53 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/bridge.jpg"):
+  
+Started GET "/w3images/skies.jpg" for 146.111.195.15 at 2024-04-16 21:36:53 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/workshop.jpg"):
+  
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/skies.jpg"):
+  
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/avatar_g.jpg"):
+  
+Started GET "/w3images/gondol.jpg" for 146.111.195.15 at 2024-04-16 21:36:53 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/w3images/rock.jpg" for 146.111.195.15 at 2024-04-16 21:36:53 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/gondol.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/rock.jpg"):
+  
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:37:57 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1356)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 1605)
+
+
+Started GET "/w3images/bridge.jpg" for 146.111.195.15 at 2024-04-16 21:37:57 +0000
+Started GET "/w3images/woods.jpg" for 146.111.195.15 at 2024-04-16 21:37:57 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/bridge.jpg"):
+  
+Started GET "/w3images/avatar_g.jpg" for 146.111.195.15 at 2024-04-16 21:37:57 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/woods.jpg"):
+  
+Started GET "/w3images/workshop.jpg" for 146.111.195.15 at 2024-04-16 21:37:57 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/avatar_g.jpg"):
+  
+Started GET "/w3images/gondol.jpg" for 146.111.195.15 at 2024-04-16 21:37:57 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/workshop.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/gondol.jpg"):
+  
+Started GET "/w3images/skies.jpg" for 146.111.195.15 at 2024-04-16 21:37:57 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/skies.jpg"):
+  
+Started GET "/w3images/rock.jpg" for 146.111.195.15 at 2024-04-16 21:37:57 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/rock.jpg"):
+  
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:38:23 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1371)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 1618)
+
+
+Started GET "/w3images/bridge.jpg" for 146.111.195.15 at 2024-04-16 21:38:23 +0000
+Started GET "/w3images/woods.jpg" for 146.111.195.15 at 2024-04-16 21:38:23 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/woods.jpg"):
+  
+Started GET "/w3images/avatar_g.jpg" for 146.111.195.15 at 2024-04-16 21:38:23 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/bridge.jpg"):
+  
+Started GET "/w3images/gondol.jpg" for 146.111.195.15 at 2024-04-16 21:38:23 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/avatar_g.jpg"):
+  
+Started GET "/w3images/workshop.jpg" for 146.111.195.15 at 2024-04-16 21:38:23 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/workshop.jpg"):
+  
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/gondol.jpg"):
+  
+Started GET "/w3images/skies.jpg" for 146.111.195.15 at 2024-04-16 21:38:24 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/skies.jpg"):
+  
+Started GET "/w3images/rock.jpg" for 146.111.195.15 at 2024-04-16 21:38:24 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/rock.jpg"):
+  
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:39:13 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 42.6ms | Allocations: 14830)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.0ms | Allocations: 15741)
+
+
+Started GET "/w3images/rock.jpg" for 146.111.195.15 at 2024-04-16 21:39:13 +0000
+Started GET "/w3images/skies.jpg" for 146.111.195.15 at 2024-04-16 21:39:13 +0000
+Started GET "/w3images/workshop.jpg" for 146.111.195.15 at 2024-04-16 21:39:13 +0000
+Started GET "/w3images/gondol.jpg" for 146.111.195.15 at 2024-04-16 21:39:13 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/rock.jpg"):
+  
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/gondol.jpg"):
+  
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/skies.jpg"):
+  
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/workshop.jpg"):
+  
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:39:44 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 14830)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 15742)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:41:11 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 14645)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms | Allocations: 15551)
+
+
+Started GET "/articles" for 146.111.195.15 at 2024-04-16 21:43:54 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 246)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 14832)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 15743)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:44:04 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1360)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 1607)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:46:01 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 1336)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 1583)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:46:06 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 14672)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 15578)
+
+
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Create (5.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2024-04-16 21:47:11.465103', '2024-04-16 21:47:11.465108') RETURNING "key"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateArticles (20240416214659)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "articles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240416214659') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:55:32 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 246)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 14812)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 15723)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:55:34 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1339)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 1586)
+
+
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:58:50 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1265)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 1357)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2257)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    90:     <div class="w3-container w3-padding">
+    91:       <h4>Popular Posts</h4>
+    92:     <ul>
+    93:           <% @articles.each do |article| %>
+    94:         <li>
+    95:           <%= article.title %>
+    96:         </li>
+  
+app/views/articles/index.html.erb:93
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:59:19 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1292)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1384)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms | Allocations: 2272)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    90:     <div class="w3-container w3-padding">
+    91:       <h4>Popular Posts</h4>
+    92:         <ul>
+    93:           <% @articles.each do |article| %>
+    94:         <li>
+    95:           <%= article.title %>
+    96:         </li>
+  
+app/views/articles/index.html.erb:93
+Started GET "/" for 146.111.195.15 at 2024-04-16 21:59:47 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1334)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2219)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    91:       <h4>Popular Posts</h4> 
+    92:   </div>
+    93:         <ul>
+    94:           <% @articles.each do |article| %>
+    95:         <li>
+    96:           <%= article.title %>
+    97:         </li>
+  
+app/views/articles/index.html.erb:94
+Started GET "/" for 146.111.195.15 at 2024-04-16 22:00:38 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1246)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1338)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 2226)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    91:       <h4>Popular Posts</h4> 
+    92:   </div>
+    93: <ul>
+    94:   <% @articles.each do |article| %>
+    95:     <li>
+    96:       <%= article.title %>
+    97:     </li>
+  
+app/views/articles/index.html.erb:94
+Started GET "/" for 146.111.195.15 at 2024-04-16 22:01:01 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 982)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1073)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1301)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    91:       <h4>Popular Posts</h4> 
+    92:   </div>
+    93: <ul>
+    94:   <% @articles.each do |article| %>
+    95:     <li>
+    96:       <%= article.title %>
+    97:     </li>
+  
+app/views/articles/index.html.erb:94
+Started GET "/" for 146.111.195.15 at 2024-04-16 22:01:09 +0000
+Cannot render console from 146.111.195.15! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 14826)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms | Allocations: 15736)
+
+
